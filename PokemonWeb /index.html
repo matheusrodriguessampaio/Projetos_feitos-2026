@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Pokémon: Descubra seu Personagem</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="home">
+    <h1>Bem-vindo ao Mundo Pokémon!</h1>
+    <p>Neste universo, humanos e criaturas vivem em harmonia. Você tem coragem para descobrir qual Pokémon inicial mais combina com sua personalidade? Responda 10 perguntas e descubra!</p>
+    <button id="btn-start">Começar Jornada</button>
+  </div>
+
+  <div id="quiz" class="hidden">
+    <h2 id="question-text"></h2>
+    <div id="answers"></div>
+  </div>
+
+  <div id="result" class="hidden">
+    <img id="result-img" width="150" alt="Resultado">
+    <h2 id="result-name"></h2>
+    <p id="result-desc"></p>
+    <button id="btn-restart">Recomeçar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
